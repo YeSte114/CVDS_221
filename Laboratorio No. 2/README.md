@@ -44,4 +44,4 @@ gitnore es un fichero que se añade a la raíz de un proyecto en el que se indic
 Para crear un archivo .gitignore local, crea un archivo de texto y asígnale el nombre ".gitignore" (recuerda incluir el . al principio). Luego, edita este archivo según sea necesario. 
 - * se utiliza como una coincidencia comodín.
 - / se usa para ignorar las rutas relativas al archivo .gitignore.
-- # es usado para agregar comentarios
+- (#) es usado para agregar comentarios
