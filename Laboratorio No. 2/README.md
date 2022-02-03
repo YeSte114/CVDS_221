@@ -27,11 +27,27 @@ Un Plugin es un fragmento o componente de código hecho para ampliar las funcion
 
 El repositorio central de Maven es la ubicación predeterminada para que Maven descargue todas las bibliotecas de dependencia del proyecto para su uso. Para cualquier biblioteca involucrada en el proyecto, Maven primero busca en la carpeta .m2 del Repositorio local, y si no encuentra la biblioteca necesaria, busca en el Repositorio central y carga la biblioteca en el repositorio local.
 
+**Ejecutar nuevamente la clase desde línea de comandos y verificar la salida: Hello World!**
+![hw](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%202/Imagenes/hw.png)
 
-Sin parámetros
-Parámetro: qwerty
-Parámetro: pentagon
-Parámetro Hexagon
+**jecute múltiples veces la clase ShapeMain, usando el plugin exec de maven con los siguientes parámetros y verifique la salida en consola para cada una:**
+
+- Sin parámetros
+
+![sp](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%202/Imagenes/sp.png)
+
+- Parámetro: qwerty
+
+![qw](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%202/Imagenes/qw.png)
+
+- Parámetro: pentagon
+
+![pent](https://github.com/lrn000/CVDS_2210/blob/main/Laboratorio%20No.%202/Imagenes/pent.png)
+
+- Parámetro Hexagon
+-
+![hex](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%202/Imagenes/pent.png)
+
 
 **¿Cuál(es) de las anteriores instrucciones se ejecutan y funcionan correctamente y por qué?**
 
