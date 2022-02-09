@@ -21,9 +21,9 @@ public long calculoTarifa(long tarifaBase, int diasAntelacion, int edad)
 1. De acuerdo con lo indicado, y teniendo en cuenta que NO hay precondiciones, en qué casos se debería
 arrojar una excepción de tipo ExcepcionParametrosInvalidos?. Agregue esto a la especificación.
 
-@throws ExcepcionParametrosInvalidos sí la edad es menor o igual a cero
-@throws ExcepcionParametrosInvalidos la cantidad de días es menor cero
-@throws ExcepcionParametrosInvalidos si la tarifa base es menor o igual a cero
+- @throws ExcepcionParametrosInvalidos sí la edad es menor o igual a cero
+- @throws ExcepcionParametrosInvalidos la cantidad de días es menor cero
+- @throws ExcepcionParametrosInvalidos si la tarifa base es menor o igual a cero
 
 
 2. En la siguiente tabla enumere un conjunto de clases de equivalencia que -según usted- creen una
