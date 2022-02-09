@@ -9,6 +9,7 @@ Normativa 005, sobre los descuentos:
 años.
 
 La siguiente es la especificación de la función que se usará en el módulo del cálculo de los descuentos:
+
 /**
 calcular la tarifa de cada billete según el trayecto, la antelación
 en la que se obtiene el billete y la edad del pasajero, de acuerdo
