@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.registry.RegistryTest" time="0.005" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.08" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -55,9 +55,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="validateRegistryResultVALID" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
-  <testcase name="validateRegistryResultUNDERAGE" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
-  <testcase name="validateRegistryResultDEAD" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
-  <testcase name="validateRegistryResultDUPLICATE" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
-  <testcase name="validateRegistryResultINVALIDAGE" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validarTarifaInvalida" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.002"/>
+  <testcase name="validarDescuentoOcho125" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.001"/>
+  <testcase name="validarDescuento15" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validarEdadCero" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validarSinDescuento18" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validarSinDescuento65" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validarDescuetoVeinte17" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validarDescuentoVeinte1" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.001"/>
+  <testcase name="validarDiasAntelacionInval" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validadEdadMenorCero" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validarDescuentoCinco17" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validarDescuentoCinco1" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0"/>
+  <testcase name="validarDescuentoOcho66" classname="edu.eci.cvds.tdd.aerodescuentos.TarifasTest" time="0.001"/>
 </testsuite>
