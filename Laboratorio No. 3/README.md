@@ -35,8 +35,13 @@ buena división del conjunto de datos de entrada de la función anterior:
 3. Para cada clase de equivalencia, defina un caso de prueba específico, definiendo: parámetros de
 entrada y resultados esperados.
 
-![casosPrueba](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%203/casosPrueba.png)
+![p3](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%203/Imagenes/p3.png)
+
 4. A partir de las clases de equivalencia identificadas en el punto 2, identifique las condiciones límite o
 de frontera de las mismas.
 
+![p4](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%203/Imagenes/p4.png)
+
 5. Para cada una de las condiciones de frontera anteriores, defina casos de prueba específicos.
+
+![p5](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%203/Imagenes/p5.png)
