@@ -5,10 +5,9 @@ package hangman.model;
  * @author Yeison Barreto
  * @author Laura García
  */
-
 public class OriginalScore implements GameScore {
     private int score=100;
-    private final int incorrect = 10;
+    private final int negative = 10;
 
     /**
      *Calcula el puntaje del juego penalizando las letras incorrectas con 10 puntos
@@ -19,7 +18,7 @@ public class OriginalScore implements GameScore {
     @Override
     public int calculateScore (int correctCount, int incorrectCount){
         while(score >0 && incorrectCount>0){
-            score -= incorrect;
+            score -= negative;
             incorrectCount--;
         }
         return score;

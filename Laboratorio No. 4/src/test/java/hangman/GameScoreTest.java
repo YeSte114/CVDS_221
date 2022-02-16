@@ -1,15 +1,15 @@
-package edu.eci.pdsw.hangman;
-import hangman.model.*;
-import  org.junit.Test;
-import  org.junit.Assert;
+package hangman;
 
+import hangman.model.BonusScore;
+import hangman.model.GameScore;
+import hangman.model.OriginalScore;
+import hangman.model.PowerScore;
+import org.junit.Assert;
+import org.junit.Test;
 
-public class GameScoreTest{
-    private GameScore original = new OriginalScore();
-    private GameScore bonus= new BonusScore();
-    private GameScore power = new PowerScore();
+public class GameScoreTest {
 
-    //    Number	Clase de Equivalencia de OriginalScore		Resultado	Lineas de Frontera
+//    Number	Clase de Equivalencia de OriginalScore		Resultado	Lineas de Frontera
 //      1	    correctCount>=0 && incorrectCount>=0		Correcto	correctCount<0
 //      2	    score>=0		                            Correcto	correctCount=0
 //      3	    correctCount<0		                        Incorrecto	incorrectCount<0
@@ -33,12 +33,15 @@ public class GameScoreTest{
 //      5	    score<0		                                Incorrecto	score>500
 //      6	    score>500		                            Incorrecto	score=0
 
-  @Test
-    public void validarCorrectoOrigenScore() {
-       int score = original.calculateScore(2, 2);
-        Assert.assertEquals(score, 80);
-    }
+    private GameScore original = new OriginalScore();
+    private GameScore bonus= new BonusScore();
+    private GameScore power = new PowerScore();
 
+    @Test
+    public void validarCorrectoOrigenScore() {
+        int score = original.calculateScore(2, 2);
+        Assert.assertEquals(score, 80);
+   }
 
 
     @Test

@@ -1,11 +1,11 @@
 package hangman.model;
+import java.math.*;
 
 /**
  * Esta clase reliza un calculo para hallar el puntaje
  * @author Yeison Barreto
  * @author Laura García
  */
-import java.math.*;
 public class PowerScore implements GameScore{
     private int score=0;
     private int correct=5;
@@ -19,8 +19,6 @@ public class PowerScore implements GameScore{
      */
     @Override
     public int calculateScore (int correctCount, int incorrectCount){
-
-
         if(score+Math.pow(5,correctCount)-(incorrectCount*incorrect)<0){
             score= 0;
         }else if(score+Math.pow(5,correctCount)-(incorrectCount*incorrect)<500) {

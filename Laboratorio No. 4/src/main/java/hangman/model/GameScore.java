@@ -1,5 +1,11 @@
 package hangman.model;
 
+/**
+ * Esta interface contiene la lógica para el calculo del puntaje del juego hagman
+ * @author Yeison Barreto
+ * @author Laura García
+ */
+
 public interface GameScore {
 
     /**
