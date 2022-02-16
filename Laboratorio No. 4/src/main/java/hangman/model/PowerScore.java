@@ -5,6 +5,7 @@ package hangman.model;
  * @author Yeison Barreto
  * @author Laura García
  */
+import java.math.*;
 public class PowerScore implements GameScore{
     private int score=0;
     private int correct=5;
@@ -15,9 +16,9 @@ public class PowerScore implements GameScore{
      * @param correctCount entero que representa el numero de letras correctas
      * @param incorrectCount entero que representa el numero de letras incorrectas
      * @return el puntaje
-     * @throws  GameException si correctCount, incorrectCount o el puntaje final es menor a cero
      */
-    public  int calculateScore (int correctCount, int incorrectCount ){
+    @Override
+    public int calculateScore (int correctCount, int incorrectCount){
 
 
         if(score+Math.pow(5,correctCount)-(incorrectCount*incorrect)<0){
@@ -29,5 +30,16 @@ public class PowerScore implements GameScore{
         }
         return score;
     }
-}
 
+    public void restart() {
+        score = 0;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+}

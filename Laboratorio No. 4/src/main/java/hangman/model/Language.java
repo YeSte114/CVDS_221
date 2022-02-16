@@ -18,3 +18,4 @@ public interface Language {
     public String[] getBackSkypeButtonLabel();
     public String[] getAccesButton();
 }
+

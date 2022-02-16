@@ -17,13 +17,25 @@ public class BonusScore implements GameScore{
      * @param correctCount entero que representa el numero de letras correctas
      * @param incorrectCount entero que representa el numero de letras incorrectas
      * @return el puntaje
-     * @throws GameException si correctCount, incorrectCount o el puntaje final es menor a cero
      */
-    public  int calculateScore (int correctCount, int incorrectCount )  {
-       if(score-(incorrectCount*incorrect)+(correctCount*correct)<0){
-           return 0;
-       }else  if (score-(incorrectCount*incorrect)+(correctCount*correct)>0)
+    @Override
+    public int calculateScore (int correctCount, int incorrectCount){
+        if(score-(incorrectCount*incorrect)+(correctCount*correct)<0){
+            return 0;
+        }else  if (score-(incorrectCount*incorrect)+(correctCount*correct)>0)
             return score-(incorrectCount*incorrect)+(correctCount*correct);
-       return score;
+        return score;
+    }
+
+    public void restart() {
+        score = 0;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
     }
 }
