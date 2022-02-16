@@ -17,8 +17,8 @@ public class GameScoreTest {
 
     @Test
     public void validarIncorrectOrigenScore() {
-        int score = original.calculateScore(1, 11);
-        Assert.assertEquals(score, -10);
+        int score = original.calculateScore(2, 11);
+        Assert.assertEquals(score, 0);
     }
 
     @Test
