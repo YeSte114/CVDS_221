@@ -15,6 +15,6 @@ public interface GameScore {
      * @return el puntaje
      * @throws GameException si correctCount, incorrectCount o el puntaje final es menor a cero
      */
-    public  int calculateScore (int correctCount, int incorrectCount ) ;
+    public int calculateScore(int correctCount, int incorrectCount) throws IllegalArgumentException;
 
 }

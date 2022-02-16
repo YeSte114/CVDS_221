@@ -7,8 +7,8 @@ package hangman.model;
  */
 
 public class OriginalScore implements GameScore{
-    private int score=100;
-    private int incorrect=10;
+
+    public static final int PUNTAJE_INICIAL = 100;
 
     /**
      *Calcula el puntaje del juego penalizando las letras incorrectas con 10 puntos
@@ -17,10 +17,9 @@ public class OriginalScore implements GameScore{
      * @return el puntaje
      * @throws GameException ,si correctCount, incorrectCount o el puntaje final es menor a cero
      */
-    public int calculateScore (int correctCount, int incorrectCount )  {
-        while(score>0 && incorrectCount>0){
-            score-=incorrectCount*incorrect;
-        }
-        return score;
+    @Override
+    public int calculateScore(int correctCount, int incorrectCount) throws IllegalArgumentException {
+        if (correctCount < 0 || incorrectCount < 0) throw new IllegalArgumentException();
+        return Math.max(OriginalScore.PUNTAJE_INICIAL - 10*incorrectCount, 0);
     }
 }

@@ -19,11 +19,9 @@ public class BonusScore implements GameScore{
      * @return el puntaje
      * @throws GameException si correctCount, incorrectCount o el puntaje final es menor a cero
      */
-    public  int calculateScore (int correctCount, int incorrectCount )  {
-       if(score-(incorrectCount*incorrect)+(correctCount*correct)<0){
-           return 0;
-       }else  if (score-(incorrectCount*incorrect)+(correctCount*correct)>0)
-            return score-(incorrectCount*incorrect)+(correctCount*correct);
-       return score;
+    @Override
+    public int calculateScore(int correctCount, int incorrectCount) throws IllegalArgumentException {
+        if (correctCount < 0 || incorrectCount < 0) throw new IllegalArgumentException();
+        return Math.max(10*correctCount - 5*incorrectCount, 0);
     }
 }
