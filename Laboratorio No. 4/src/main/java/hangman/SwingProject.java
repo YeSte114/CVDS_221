@@ -28,6 +28,7 @@ package hangman;
 
 
 import com.google.inject.Guice;
+import com.google.inject.Inject;
 import com.google.inject.Injector;
 
 import hangman.setup.factoryMethod.HangmanDefaultFactoryMethod;
@@ -45,13 +46,16 @@ public class SwingProject {
     public static final String PROJECT_NAME = "CS 245 - Swing Project v1";
 
     public static GUI createGUIUsingFactoryMethod() {
-        return new GUI(new HangmanDefaultFactoryMethod());
+            return new GUI(new HangmanDefaultFactoryMethod());
     }
 
-    public static GUI createGUIUsingGuice() {
+    @Inject
+    private HangmanFactoryServices hangmanFactoryServices;
+
+    /*public static GUI createGUIUsingGuice() {
         Injector injector = Guice.createInjector(new HangmanFactoryServices());
         return injector.getInstance(GUI.class);
-    }
+    }*/
 
     //method: main
     //purpose: the entry-point to our application
