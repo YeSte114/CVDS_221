@@ -1,7 +1,5 @@
 package hangman.model;
 
-import hangman.controller.GameException;
-
 /**
  * Esta interface contiene la lógica para el calculo del puntaje del juego hagman
  * @author Yeison Barreto
@@ -17,6 +15,6 @@ public interface GameScore {
      * @return el puntaje
      * @throws GameException si correctCount, incorrectCount o el puntaje final es menor a cero
      */
-    public  int calculateScore (int correctCount, int incorrectCount ) throws GameException;
+    public  int calculateScore (int correctCount, int incorrectCount ) ;
 
 }

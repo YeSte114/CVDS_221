@@ -1,13 +1,15 @@
 package hangman.model;
 
-import hangman.controller.GameException;
-
 /**
  * Esta clase reliza un calculo para hallar el puntaje
  * @author Yeison Barreto
  * @author Laura García
  */
 public class BonusScore implements GameScore{
+    private int score=0;
+    private int correct=10;
+    private int incorrect=5;
+    private int minimo=0;
 
     /**
      *Calcula el puntaje del juego penalizando las letras incorrectas con 5 puntos
@@ -17,7 +19,11 @@ public class BonusScore implements GameScore{
      * @return el puntaje
      * @throws GameException si correctCount, incorrectCount o el puntaje final es menor a cero
      */
-    public  int calculateScore (int correctCount, int incorrectCount ) throws GameException {
-
+    public  int calculateScore (int correctCount, int incorrectCount )  {
+       if(score-(incorrectCount*incorrect)+(correctCount*correct)<0){
+           return 0;
+       }else  if (score-(incorrectCount*incorrect)+(correctCount*correct)>0)
+            return score-(incorrectCount*incorrect)+(correctCount*correct);
+       return score;
     }
 }

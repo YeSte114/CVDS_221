@@ -1,16 +1,19 @@
-package hangman.test;
-
-import  org.junit.Assert;
+package hangman;
 import hangman.model.*;
+import  org.junit.Test;
+import  org.junit.Assert;
 
 public class GameScoreTest {
-    private GameScore original = new OriginalScore();
 
-    @Test
-    public void validarCorrectoOrigenScore() {
-        int score = original.calculateScore(1, 1);
-        Assert.assertEquals(score, 90);
-    }
+    private GameScore original = new OriginalScore();
+    private GameScore bonus= new BonusScore();
+    private GameScore power = new PowerScore();
+
+//    @Test
+//    public void validarCorrectoOrigenScore() {
+//        int score = original.calculateScore(2, 2);
+//        Assert.assertEquals(score, 80);
+//    }
 
     @Test
     public void validarIncorrectOrigenScore() {
@@ -30,56 +33,44 @@ public class GameScoreTest {
         Assert.assertEquals(score, 0);
     }
 
-    @Test
-    public void validarIncorrectOrigenScoreNeg() {
-        int score = original.calculateScore(-1, -1);
-        Assert.assertEquals(score, -10);
-    }
-
-
     //BonusScore
 
     @Test
     public void validarIgualCeroBonusScore() {
-        int score = original.calculateScore(0, 0);
+        int score = bonus.calculateScore(0, 0);
         Assert.assertEquals(score, 0);
     }
 
+
     @Test
     public void validarIgualDiezBonusScore() {
-        int score = original.calculateScore(1, 0);
+        int score = bonus.calculateScore(1, 0);
         Assert.assertEquals(score, 10);
     }
 
     @Test
     public void validarIgualCincoBonusScore() {
-        int score = original.calculateScore(1, 0);
+        int score = bonus.calculateScore(1, 1);
         Assert.assertEquals(score, 5);
-    }
-
-    @Test
-    public void validarIgualInvalidBonusScore() {
-        int score = original.calculateScore(1, 3);
-        Assert.assertEquals(score, -5);
     }
 
     //PowerScore
 
     @Test
-    public void validarIgualCeroPowerScore() {
-        int score = original.calculateScore(0, 0);
-        Assert.assertEquals(score, 0);
+    public void validarIgual5PowerScore() {
+        int score = power.calculateScore(1, 0);
+        Assert.assertEquals(score, 5);
     }
 
     @Test
-    public void validarIgualCeroPowerScore() {
-        int score = original.calculateScore(0, 0);
-        Assert.assertEquals(score, 0);
+    public void validarPuntaje0PowerScore(){
+        int resultado= power.calculateScore(1,2);
+        Assert.assertEquals(0,resultado);
     }
 
     @Test
     public void validarIgual500PowerScore() {
-        int score = original.calculateScore(14, 0);
+        int score = power.calculateScore(4, 0);
         Assert.assertEquals(score, 500);
     }
 

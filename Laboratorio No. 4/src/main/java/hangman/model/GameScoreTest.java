@@ -1,4 +1,4 @@
-package hangman;
+package hangman.model;
 
 public class GameScoreTest {
 }
