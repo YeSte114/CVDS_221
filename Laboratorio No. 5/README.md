@@ -46,3 +46,5 @@ mvn package
 mvn tomcat7:run
 
 ![1](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/1.png)
+
+*Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
