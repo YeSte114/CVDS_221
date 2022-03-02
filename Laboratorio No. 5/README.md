@@ -33,3 +33,8 @@ Versión HTTP: 1.1
 Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
 
 ![telnet2](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/telnet2.png)
+
+*Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. Ejecute el comando wc (word count) para contar palabras con la opción -c para contar el número de caracteres:
+
+wc -c 
+
