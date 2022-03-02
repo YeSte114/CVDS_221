@@ -10,7 +10,7 @@ telnet HOST PORT
 
 Solicite al servidor el recurso ‘sssss/abc.html’, usando la versión 1.0 de HTTP.
 
-[!https://github.com/YeSte114/CVDS_2210/edit/main/Laboratorio%20No.%205/README.md](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/telnetEscuing.png)
+![https://github.com/YeSte114/CVDS_2210/edit/main/Laboratorio%20No.%205/README.md](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/telnetEscuing.png)
 
 * ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
 
