@@ -2,6 +2,7 @@
 ### PARTE I. - JUGANDO A SER UN CLIENTE HTTP
 
 Realice una conexión síncrona TCP/IP a través de Telnet/Netcat al siguiente servidor:
+
 Host: www.escuelaing.edu.co
 Puerto: 80
 Teniendo en cuenta los parámetros del comando telnet:
@@ -25,8 +26,10 @@ Solicite al servidor el recurso ‘sssss/abc.html’, usando la versión 1.0 de 
 5. Códigos de estado 5XX: se refieren a errores del servidor. Pueden generarse por un error en el código de la página web o dentro del propio servidor. 
 
 * Realice una nueva conexión con telnet, esta vez a:
+
 Host: www.httpbin.org
 Puerto: 80
 Versión HTTP: 1.1
 Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
 
+![telnet2](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/telnet2.png)
