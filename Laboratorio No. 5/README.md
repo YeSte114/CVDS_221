@@ -47,4 +47,30 @@ mvn tomcat7:run
 
 ![1](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/1.png)
 
-*Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
+* Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
+
+![2](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/2.png)
+
+* Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
+
+![3](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/3.png)
+
+* En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
+
+![4](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/4.png)
+
+![5](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/5.png)
+
+![6](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/6.png)
+
+### PARTE III.
+
+* Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada. Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
+
+Con método Post
+
+![8](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/8.png)
+
+Con método Get
+
+![9](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/9.png)
