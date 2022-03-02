@@ -50,7 +50,7 @@ public class SwingProject {
     }
 
     @Inject
-    private HangmanFactoryServices hangmanFactoryServices;
+    private HangmanFactoryServices createGUIUsingGuice;
 
     /*public static GUI createGUIUsingGuice() {
         Injector injector = Guice.createInjector(new HangmanFactoryServices());
@@ -60,7 +60,7 @@ public class SwingProject {
     //method: main
     //purpose: the entry-point to our application
     public static void main(String[] args) {
-        createGUIUsingGuice().play();
+        createGUIUsingFactoryMethod().play();
     }
 
 }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Start Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+    <body>
+        <h1>Hello World!</h1>
+
+        <script>
+        function myFunction() {
+            var x = document.forms["myForm"]["idTi"].value;
+            if (isNaN(x)) {
+                alert("Carácter inválido! Solo es permitido números, intentalo nuevamente ");
+                return false;
+            }
+        }
+        </script>
+
+        <form name="myForm" action="http://localhost:8080/newHttpServlet" method="get">
+            <p style="color:#0000FF";>Ingrese un identificador:<p>  <input type="text" id="idTi" name="id" size="5" maxlength="3">
+            <input type="submit" onclick="myFunction()" value="Buscar">
+        </form>
+
+    </body>
+</html>
