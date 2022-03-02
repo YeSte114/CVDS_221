@@ -69,8 +69,8 @@ mvn tomcat7:run
 
 Con método Post
 
-![8](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/8.png)
+![9](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/9.png)
 
 Con método Get
 
-![9](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/9.png)
+![8](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/8.png)
