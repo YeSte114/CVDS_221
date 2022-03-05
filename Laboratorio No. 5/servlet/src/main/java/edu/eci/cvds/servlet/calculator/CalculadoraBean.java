@@ -21,7 +21,7 @@ public class CalculadoraBean {
     private int length;
 
 
-    public void calculate(String list) {
+    public void CalculadoraBean (String list) {
         try {
             numbers = new ArrayList<Double>();
             String[] array = list.split(";");
