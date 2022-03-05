@@ -47,6 +47,7 @@ La diferencia entre los métodos get y post radica en la forma de enviar los dat
 * ¿Qué otros tipos de peticiones existen?
 
   **GET**
+  
   El método GET  solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
 
   **HEAD**
