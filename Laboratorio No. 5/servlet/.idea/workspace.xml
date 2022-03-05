@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3caa03dc-c343-4e6a-9596-e3ddde54815c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/WebApp/META-INF/MANIFEST.MF" afterDir="false" />
@@ -12,6 +13,14 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/index.jsp" afterDir="false" />
+=======
+    <list default="true" id="3caa03dc-c343-4e6a-9596-e3ddde54815c" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/servlet/CalculadoraBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+>>>>>>> 2cc36c9ddb18a392e5636e76bb34c2d545be42b2
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SampleServlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/Service.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/model/Todo.class" beforeDir="false" />
@@ -51,6 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab5/CVDS-LAB05/CVDS-LAB05/pom.xml" />
   </component>
   <component name="RecentsManager">
@@ -70,6 +80,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+>>>>>>> 2cc36c9ddb18a392e5636e76bb34c2d545be42b2
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
