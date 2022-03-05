@@ -46,31 +46,31 @@ La diferencia entre los métodos get y post radica en la forma de enviar los dat
 
 * ¿Qué otros tipos de peticiones existen?
 
-  GET
+  **GET**
   El método GET  solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
 
-  HEAD
+  **HEAD**
   El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
 
-  POST
+  **POST**
   El método POST se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
 
-  PUT
+  **PUT**
   El modo PUT reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
 
-  DELETE
+  **DELETE**
   El método DELETE borra un recurso en específico.
 
-  CONNECT
+  **CONNECT**
   El método CONNECT establece un túnel hacia el servidor identificado por el recurso.
 
-  OPTIONS
+  **OPTIONS**
   El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
 
-  TRACE
+  **TRACE**
   El método TRACE  realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino.
 
-  PATCH
+  **PATCH**
   El método PATCH  es utilizado para aplicar modificaciones parciales a un recurso.
 
 * En la practica no se utiliza telnet para hacer peticiones a sitios web sino el comando curl con ayuda de la linea de comandos:
