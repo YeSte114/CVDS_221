@@ -38,6 +38,8 @@ Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
 
 wc -c 
 
+![md](https://github.com/YeSte114/CVDS_2210/blob/main/Laboratorio%20No.%205/imagenes/md.png)
+
 ### PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
 * Compile y ejecute la aplicación en el servidor embebido Tomcat, a través de Maven con:
