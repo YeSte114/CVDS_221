@@ -5,33 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3caa03dc-c343-4e6a-9596-e3ddde54815c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/servlet/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/servlet/model/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/servlet/newHttpServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab5/CVDS-LAB05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab5/CVDSLab5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Laboratorio No. 4/src/main/java/hangman/SwingProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratorio No. 4/src/main/java/hangman/SwingProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/servlet/SampleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/servlet/SampleServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SampleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SampleServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2022-03-01" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2022-03-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/WebApp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/servlet/calculator/CalculadoraBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/SampleServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/model/Todo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/cvds/servlet/newHttpServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2022-03-01" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +52,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab5/CVDS-LAB05/CVDS-LAB05/pom.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yeison Barreto\OneDrive\Documentos\UNIVERSIDAD\MATERIAS CARRERA\MATERIAS ECI 2022-1\CVDS_2210\Laboratorio No. 5\servlet\src\main\webapp" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -97,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
